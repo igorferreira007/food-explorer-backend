@@ -10,7 +10,7 @@ const cors = require("cors")
 const cookieParser = require("cookie-parser")
 
 app.use(cors({
-  origin: ["http://localhost:5173", "http://127.0.0.1:5173/"],
+  origin: ["http://localhost:5173", "http://127.0.0.1:5173/", "https://food-3xplorer.netlify.app"],
   credentials: true
 }))
 
