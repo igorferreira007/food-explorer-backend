@@ -72,7 +72,7 @@ class DishRepository {
         ])
         //.whereLike("dishes.name", `%${name}%`)
         .whereRaw('LOWER(dishes.name) LIKE ?', [`%${name.toLowerCase()}%`]) // Case-insensitive search for name
-        .whereIn("ingredients.name", filterIngredients)
+        .andWhereRaw('LOWER(ingredients.name) LIKE ?', [`%${ingredients}%`])
         .innerJoin("dishes", "dishes.id", "ingredients.dish_id")
         .groupBy("dishes.id")
         .orderBy("dishes.name")
