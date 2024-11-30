@@ -55,9 +55,8 @@ Antes de começar, certifique-se de ter o seguinte instalado na sua máquina:
     ```
     npm install
 
-4. Configure as variáveis de ambiente:
-
-  Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+4. Configure as variáveis de ambiente:  
+Crie um arquivo .env na raiz do projeto com as seguintes variáveis:
 
     ```
     AUTH_SECRET=seu_secret_aqui
