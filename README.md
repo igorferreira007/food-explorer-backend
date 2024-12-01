@@ -88,10 +88,8 @@ O servidor estará disponível em http://localhost:3333.
 - PUT /dishes/:id: Edição de pratos (somente administradores).
 - DELETE /dishes/:id: Exclusão de pratos (somente administradores).
 
-### Upload de Imagens
-
-- PATCH /dishes/:id/image: Upload de imagem para um prato.
-
 ## Observações
 
-Para testar a aplicação em conjunto com o frontend, clone também o repositório do [frontend](https://github.com/igorferreira007/food-explorer-frontend.git) e siga as instruções no README.md correspondente.
+Para testar a aplicação em conjunto com o frontend, clone também o repositório do [frontend](https://github.com/igorferreira007/food-explorer-frontend.git) e siga as instruções no README.md correspondente.  
+  
+URL da API: https://food-explorer-backend-s63w.onrender.com
